@@ -5,8 +5,9 @@
     margin: 2rem;
 }
 
-li {
-    list-style-type: none;
+header {
+    position: sticky;
+    top: 1rem;
 }
 
 .nav-bar {
@@ -20,6 +21,7 @@ li {
     border: 1px solid white;
     border-radius: 20px;
     padding: 1rem 2rem;
+    background-color: black;
 }
 
 a {
@@ -61,4 +63,26 @@ a:hover::before {
     background-size: 2em 2em;
     background-color: #000000;
     opacity: 1
+}
+
+.seccion {
+    height: 50vh;
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.logos {
+    height: 50px;
 }

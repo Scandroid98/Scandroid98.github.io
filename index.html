@@ -10,16 +10,32 @@
   <body>
     <header>
       <div class="nav-bar">
-          <a href="#">Inicio</a>
-          <a href="#experiencia">Experiencia</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#sobre-mi">Sobre Mi</a>
+          <a class="nav-links" href="#">Inicio</a>
+          <a class="nav-links" href="#experiencia">Experiencia</a>
+          <a class="nav-links" href="#proyectos">Proyectos</a>
+          <a class="nav-links" href="#sobre-mi">Sobre Mi</a>
       </div>
     </header>
     <main>
       <div id="hero">
         <h1>Daniel Delgado</h1>
         <h3>Desarrollador Web.</h3>
+        <div id="socials">
+          <a href="https://www.linkedin.com/">
+            <img 
+              src="./src/assets/icons/linkedin.svg" 
+              alt="LinkedIn" 
+              height="40"
+            />
+          </a>
+          <a href="https://github.com/">
+            <img 
+              src="./src/assets/icons/github.svg" 
+              alt="GitHub" 
+              height="40"
+            />
+          </a>
+        </div>
       </div>
       <div class="seccion" id="experiencia">
         <h2>Experiencia</h2>
@@ -45,8 +61,9 @@
         <ul>
           <li>DaniMovies</li>
           <li>DaniChess</li>
-          <li>etc</li>
-          <li>etc</li>
+          <li>DaniCinema</li>
+          <li>DaniBurguers</li>
+          <li>DaniScreenwriter</li>
           <li>etc</li>
         </ul>
       </div>
@@ -54,6 +71,18 @@
         <h2>Sobre Mi</h2>
         <p>Soy Dani 🙂</p>
       </div>
+      <div class="seccion">
+        <h2>Contacto</h2>
+        <form>      
+          <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+          <input name="email" type="text" class="feedback-input" placeholder="Email" />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT"/>
+        </form>
+      </div>
     </main>
+    <footer>
+      <p>© 2025 Daniel Delgado</p>
+    </footer>
   </body>
 </html>
